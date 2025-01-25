@@ -19,5 +19,7 @@ class MyGUI:
 
     def show_message(self):
         self.label.destroy()
+        self.player_screen = tk.Label(self.root, text="Player menu", font=('TkDefulatFont',18))
+        self.player_screen.pack(padx=10, pady=10)
 
 gui = MyGUI()
